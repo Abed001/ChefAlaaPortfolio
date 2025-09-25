@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary text (dark gray) */
+  --color-text-primary: oklch(0.22 0.01 270); /* Approx. #333 */
+
+  /* Background (white) */
+  --color-bg-primary: oklch(1 0 0); /* Pure white */
+
+  /* Button background (black) */
+  --color-button-bg: oklch(0.15 0.01 270); /* Near #000 */
+
+  /* Button text (white) */
+  --color-button-text: oklch(1 0 0);
+
+  /* Input border (light gray) */
+  --color-input-border: oklch(0.9 0.01 270); /* Approx. #e5e5e5 */
+
+  /* Font family */
+  --font-sanss: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-test: "Courier New", Courier, monospace;
+
+  /* Font sizes */
+  --font-size-heading: 2rem; /* ~32px for "Get in touch" */
+  --font-size-body: 1rem; /* ~16px for paragraph text */
+  --font-size-input: 0.875rem; /* ~14px for form fields */
+  --font-size-button: 0.875rem; /* ~14px for "SEND" button */
+}
