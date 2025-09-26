@@ -8,7 +8,7 @@ import Contact from "./Pages/Contact";
 import Header from "./Component/Header";
 function App() {
   return (
-    <>
+    <div className="font-poppins">
       <Header />
 
       <Routes>
@@ -29,7 +29,7 @@ function App() {
           element={<Contact />}
         />
       </Routes>
-    </>
+    </div>
   );
 }
 

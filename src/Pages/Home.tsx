@@ -1,5 +1,11 @@
+import Hero from "@/Component/Hero";
+
 function Home() {
-  return <div className="h-[200px]">home </div>;
+  return (
+    <div className="">
+      <Hero />{" "}
+    </div>
+  );
 }
 
 export default Home;
