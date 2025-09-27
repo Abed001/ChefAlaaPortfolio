@@ -1,9 +1,9 @@
-import chefAlaa from "../assets/chefAlaa.png";
+import alaaPhotoroom from "../assets/alaaPhotoroom.png";
 
 function Hero() {
   return (
-    <div className="flex flex-col lg:flex-row justify-center ">
-      <div className=" p-5 gap-y-5 text-left flex flex-col justify-center w-[100%] lg:w-[50%] lg:mt-[150px] lg:px-30 ">
+    <div className="flex flex-col lg:flex-row justify-center">
+      <div className=" px-5 gap-y-5 text-left flex flex-col justify-center w-[100%] lg:w-[50%] lg:mt-[150px] lg:px-30 ">
         {" "}
         <span className="text-[2rem] font-bold lg:w-[500px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -21,8 +21,8 @@ function Hero() {
       </div>
 
       <img
-        src={chefAlaa}
-        className="lg:mt-10 w-full lg:max-w-[500px] object-cover object-center"
+        src={alaaPhotoroom}
+        className="mb-10 rounded-4xl lg:mt-10 w-full lg:w-[600px] object-cover object-center"
       />
     </div>
   );

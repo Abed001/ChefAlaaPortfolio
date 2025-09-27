@@ -1,9 +1,11 @@
 import Hero from "@/Component/Hero";
+import StorySection from "@/Component/StorySection";
 
 function Home() {
   return (
-    <div className="">
-      <Hero />{" "}
+    <div className="flex flex-col">
+      <Hero />
+      <StorySection />
     </div>
   );
 }
