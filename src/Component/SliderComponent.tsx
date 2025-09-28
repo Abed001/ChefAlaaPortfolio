@@ -10,7 +10,7 @@ import "swiper/css/scrollbar";
 function SliderComponent() {
   return (
     <Swiper
-      className="rounded-md w-[90%] mt-5 lg:mt-0 lg:w-[50%]"
+      className="rounded-md w-[90%] mt-5 lg:mt-0 lg:w-[100%]"
       // install Swiper modules
       modules={[Scrollbar, A11y]}
       spaceBetween={50}
