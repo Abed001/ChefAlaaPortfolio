@@ -22,7 +22,7 @@ function Hero() {
 
       <img
         src={alaaPhotoroom}
-        className=" mb-10 rounded-4xl lg:mt-10 w-full lg:w-[600px] object-cover object-center"
+        className="lg:px-5 mb-10 rounded-4xl lg:mt-10 w-full lg:w-[600px] object-cover object-center"
       />
     </div>
   );

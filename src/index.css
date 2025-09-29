@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&display=swap");
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/scrollbar";
+@import "swiper/css/navigation";
 
 @theme {
   /* Primary text (dark gray) */
@@ -27,4 +30,27 @@
   --font-size-body: 1rem; /* ~16px for paragraph text */
   --font-size-input: 0.875rem; /* ~14px for form fields */
   --font-size-button: 0.875rem; /* ~14px for "SEND" button */
+}
+
+/* Swiper navigation button styling */
+.swiper-button-next {
+  color: var(--color-button-text); /* Dark button color */
+}
+
+.swiper-button-prev {
+  color: var(--color-button-text); /* Dark gray text color */
+}
+
+/* Optional: hover and disabled states */
+.swiper-button-next:hover {
+  color: grey; /* Vibrant reddish-orange */
+}
+
+.swiper-button-prev:hover {
+  color: grey; /* Deep bluish-gray */
+}
+
+.swiper-button-disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
 }

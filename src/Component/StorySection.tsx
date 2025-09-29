@@ -21,7 +21,7 @@ function StorySection() {
           consectetur modi iste!
         </p>
       </div>
-      <div className=" mb-10 rounded-4xl lg:mt-10 w-full lg:w-[600px]">
+      <div className=" mb-10 rounded-4xl lg:px-5 lg:mt-10 w-full lg:w-[600px]">
         <SliderComponent />
       </div>
     </div>
