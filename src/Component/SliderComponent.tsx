@@ -4,7 +4,6 @@ import slider1 from "../assets/SliderAlbum/slider1.jpg";
 import slider2 from "../assets/SliderAlbum/slider2.jpg";
 import slider3 from "../assets/SliderAlbum/slider3.jpg";
 import slider4 from "../assets/SliderAlbum/slider4.jpg";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
