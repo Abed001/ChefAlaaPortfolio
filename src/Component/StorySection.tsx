@@ -5,7 +5,7 @@ import SliderComponent from "./SliderComponent";
 function StorySection() {
   return (
     <div className="flex flex-col lg:flex-row justify-between items-center">
-      <div className=" lg:ml-15 lg:px-0 gap-y-5 text-left flex flex-col justify-center w-[100%]  ">
+      <div className=" lg:ml-15 px-15 gap-y-5 text-left flex flex-col justify-center w-[100%]  ">
         {" "}
         <span className="text-[2rem] font-bold lg:w-[500px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit

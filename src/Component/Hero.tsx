@@ -2,7 +2,7 @@ import alaaPhotoroom from "../assets/alaaPhotoroom.png";
 
 function Hero() {
   return (
-    <div className="w-[100%] flex flex-col lg:flex-row items-center">
+    <div className="w-[100%] px-15 flex flex-col lg:flex-row items-center">
       <div className=" sm:block text-left flex flex-col justify-center w-[100%]  ">
         <div className=" ml-15 lg:block text-left flex flex-col justify-center lg:w-[600px] ">
           {" "}
