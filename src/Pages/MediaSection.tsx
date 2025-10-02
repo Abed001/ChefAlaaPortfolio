@@ -2,7 +2,7 @@ import VideoSlider from "@/Component/VideoSlider";
 
 function MediaSection() {
   return (
-    <div>
+    <div className="mb-10">
       <VideoSlider />
     </div>
   );

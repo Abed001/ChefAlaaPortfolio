@@ -1,15 +1,13 @@
-import plate from "../../../plate.json";
+import videos from "../../../plate.json";
 
 function VideoSlider() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mt-12">
+    <section className="w-[100%] mx-auto border flex flex-col lg:flex-row justify-between items-center lg:mt-10">
       {/* Left: Text */}
-      <div>
-        <h2 className="text-[oklch(0.6_0.15_250)] text-4xl font-bold mb-4">
-          VIDEOS
-        </h2>
+      <div className="px-4 mb-5 tracking-wide lg:mb-0 lg:ml-12 lg:mt-[-100px] border text-left flex flex-col lg:w-[350px]">
         <p className="text-[oklch(0.22_0.01_270)] text-base leading-relaxed">
-          My cooking style is expressive, flavorful, and visually rich.
+          <span className="font-bold text-[2rem]">My cooking style</span> <br />
+          is expressive, flavorful, and visually rich.
           <br />
           From plating techniques to behind-the-scenes prep, I create videos
           that feel authentic and scroll-stopping.
@@ -20,15 +18,16 @@ function VideoSlider() {
       </div>
 
       {/* Right: Video Grid */}
-      <div className="grid grid-cols-2 gap-4">
-        {plate.map((video) => (
+      <div className="  mb-10 w-full lg:max-w-[50%]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        {videos.map((video, index) => (
           <div
-            key={video.id}
-            className="aspect-video rounded-md overflow-hidden shadow-md"
+            key={index}
+            className=" rounded-4xl overflow-hidden shadow-md aspect-video"
           >
             <video
               controls
-              className="w-full rounded-md aspect-video object-cover"
+              autoPlay
+              className="w-full h-full object-cover object-center rounded-4xl"
             >
               <source
                 src={video.src}
@@ -38,7 +37,7 @@ function VideoSlider() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

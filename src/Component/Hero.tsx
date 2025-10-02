@@ -1,15 +1,16 @@
-import alaaPhotoroom from "../assets/alaaPhotoroom.png";
+//import alaaPhotoroom from "../assets/alaaPhotoroom.png";
+import newhero from "../assets/newhero.png";
 
 function Hero() {
   return (
-    <div className="w-[100%] px-15 flex flex-col lg:flex-row items-center">
-      <div className=" sm:block text-left flex flex-col justify-center w-[100%]  ">
-        <div className=" ml-15 lg:block text-left flex flex-col justify-center lg:w-[600px] ">
+    <div className=" w-[100%]  flex flex-col justify-around lg:flex-row items-center">
+      <div className="px-4 sm:block text-left flex flex-col justify-center w-[100%]  ">
+        <div className=" ml-10 mt-[-50px] lg:block text-left flex flex-col justify-center lg:w-[600px] ">
           {" "}
           <span className="text-[2rem] font-bold lg:w-[500px]">
             Lorem ipsum dolor sit amet consectetur.
           </span>
-          <p className="w-full lg:max-w-[600px]">
+          <p className="tracking-wide w-full lg:max-w-[600px]">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Praesentium labore possimus consequatur deleniti necessitatibus?
           </p>
@@ -17,8 +18,8 @@ function Hero() {
       </div>
 
       <img
-        src={alaaPhotoroom}
-        className=" lg:mr-15 lg:px-5 mb-10 rounded-4xl lg:mt-10 w-full lg:w-[600px] object-cover object-center"
+        src={newhero}
+        className="  lg:mr-10  mb-10 rounded-4xl lg:w-[700px] lg:mt-10 w-full object-cover object-center"
       />
     </div>
   );

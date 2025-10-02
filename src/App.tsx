@@ -8,7 +8,7 @@ import Contact from "./Pages/Contact";
 import Header from "./Component/Header";
 function App() {
   return (
-    <div className="font-poppins overflow-x-hidden">
+    <div className="font-poppins overflow-x-hidden ">
       <Header />
 
       <Routes>
