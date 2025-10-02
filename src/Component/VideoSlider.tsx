@@ -1,28 +1,76 @@
-import videos from "../../../plate.json";
+//import videos from "../../plate.json";
+import video1 from "../../public/VideoAlbum/video1.mp4";
+import video2 from "../../public/VideoAlbum/video2.mp4";
+//import video3 from "../../public/VideoAlbum/video3.mp4";
+//import video4 from "../../public/VideoAlbum/video4.mp4";
+//import video5 from "../../public/VideoAlbum/video5.mp4";
+//import video6 from "../../public/VideoAlbum/video6.mp4";
+
+import Video from "./Video";
 
 function VideoSlider() {
   return (
-    <section className="w-[100%] mx-auto border flex flex-col lg:flex-row justify-between items-center lg:mt-10">
+    <section className="w-[100%] mx-auto  flex flex-col lg:flex-row justify-between items-center lg:mt-10">
       {/* Left: Text */}
-      <div className="px-4 mb-5 tracking-wide lg:mb-0 lg:ml-12 lg:mt-[-100px] border text-left flex flex-col lg:w-[350px]">
-        <p className="text-[oklch(0.22_0.01_270)] text-base leading-relaxed">
-          <span className="font-bold text-[2rem]">My cooking style</span> <br />
-          is expressive, flavorful, and visually rich.
-          <br />
-          From plating techniques to behind-the-scenes prep, I create videos
-          that feel authentic and scroll-stopping.
-          <br />
-          Whether for tutorials or storytelling—I bring rhythm and soul to every
-          frame.
-        </p>
+      <div className="sm:block px-4 mb-5  tracking-wide  text-left flex flex-col">
+        <div className="lg:block mb-5 ml-10 tracking-wide lg:mb-0 lg:mt-[-100px]  text-left flex flex-col lg:w-[350px]">
+          <p className="text-[oklch(0.22_0.01_270)] text-base leading-relaxed">
+            <span className="font-bold text-[2rem]">My cooking style</span>{" "}
+            <br />
+            is expressive, flavorful, and visually rich.
+            <br />
+            From plating techniques to behind-the-scenes prep, I create videos
+            that feel authentic and scroll-stopping.
+            <br />
+            Whether for tutorials or storytelling—I bring rhythm and soul to
+            every frame.
+          </p>
+        </div>
       </div>
 
-      {/* Right: Video Grid */}
-      <div className="  mb-10 w-full lg:max-w-[50%]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+      {/* //////////////*/}
+
+      <section className=" lg:mr-10 lg:max-w-[50%] flex">
+        {/* //////////////*/}
+
+        <div className="m-[2px] w-full  flex flex-col ">
+          <div className=" rounded-4xl overflow-hidden shadow-md h-[300px]">
+            <Video url={video1} />
+          </div>
+          <div className="mt-[2px] rounded-4xl overflow-hidden shadow-md h-[300px]">
+            <Video url={video1} />
+          </div>
+        </div>
+
+        {/* //////////////*/}
+
+        <div className="m-[2px] w-full  flex flex-col ">
+          <div className=" rounded-4xl overflow-hidden shadow-md ">
+            <Video url={video2} />
+          </div>
+          <div className="mt-[2px] rounded-4xl overflow-hidden shadow-md aspect-ratio">
+            <Video url={video2} />
+          </div>
+        </div>
+
+        {/* //////////////*/}
+
+        <div className=" m-[2px]  w-full  flex flex-col ">
+          <div className=" rounded-4xl overflow-hidden shadow-md h-[300px]">
+            <Video url={video2} />
+          </div>
+          <div className=" mt-[2px] rounded-4xl overflow-hidden shadow-md h-[300px]">
+            <Video url={video2} />
+          </div>
+        </div>
+      </section>
+
+      {/* Right: Video Grid
+      <div className=" sm:block  mb-10 w-full lg:max-w-[50%] grid grid-cols-1 md:grid-cols-2  gap-2 ">
         {videos.map((video, index) => (
           <div
             key={index}
-            className=" rounded-4xl overflow-hidden shadow-md aspect-video"
+            className=" rounded-4xl overflow-hidden shadow-md aspect-ratio"
           >
             <video
               controls
@@ -36,7 +84,7 @@ function VideoSlider() {
             </video>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }

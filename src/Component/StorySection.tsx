@@ -5,8 +5,8 @@ import SliderComponent from "./SliderComponent";
 function StorySection() {
   return (
     <div className="flex flex-col lg:flex-row justify-around items-center">
-      <div className="border sm-block px-4 gap-y-5 text-left flex flex-col justify-center   ">
-        <div className="border lg:block lg:ml-10  lg:px-0 gap-y-5 text-left flex flex-col justify-center   ">
+      <div className=" sm-block px-4 gap-y-5 text-left flex flex-col justify-center   ">
+        <div className=" lg:block lg:ml-10  lg:px-0 gap-y-5 text-left flex flex-col justify-center   ">
           {" "}
           <span className="text-[2rem] font-bold lg:w-[500px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -23,7 +23,7 @@ function StorySection() {
           </p>
         </div>
       </div>
-      <div className="border lg:mr-10 mb-10 rounded-4xl  lg:mt-10 w-full lg:w-[500px]">
+      <div className=" lg:mr-10 mb-10 rounded-4xl  lg:mt-10 w-full lg:w-[500px]">
         <SliderComponent />
       </div>
     </div>
