@@ -1,11 +1,10 @@
-import videos from "../../plate.json";
+import videos from "../../video.json";
 import video1 from "../../public/VideoAlbum/video1.mp4";
 import video2 from "../../public/VideoAlbum/video2.mp4";
 import video3 from "../../public/VideoAlbum/video3.mp4";
 import video4 from "../../public/VideoAlbum/video4.mp4";
 import video5 from "../../public/VideoAlbum/video5.mp4";
 import video6 from "../../public/VideoAlbum/video6.mp4";
-
 import Video from "./Video";
 
 function VideoSlider() {
