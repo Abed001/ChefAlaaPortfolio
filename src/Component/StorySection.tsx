@@ -24,7 +24,7 @@ function StorySection() {
           </p>
         </div>
       </div>
-      <div className=" lg:mr-10 mb-10 rounded-4xl  lg:mt-10 w-full lg:w-[500px]">
+      <div className=" lg:mr-10 md:px-4 mb-10 rounded-4xl lg:mt-10 w-full lg:w-[500px]">
         <SliderComponent />
       </div>
     </div>

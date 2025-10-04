@@ -10,7 +10,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 function SliderComponent() {
   return (
     <Swiper
-      className="rounded-md w-[90%] h-[600px] mt-5 lg:mt-0 lg:w-[100%]"
+      className="rounded-md w-[90%] md:w-full h-[600px] mt-5 lg:mt-0 lg:w-[100%]"
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
       slidesPerView={1}

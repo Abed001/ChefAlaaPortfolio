@@ -1,4 +1,4 @@
-//import videos from "../../plate.json";
+import videos from "../../plate.json";
 import video1 from "../../public/VideoAlbum/video1.mp4";
 import video2 from "../../public/VideoAlbum/video2.mp4";
 import video3 from "../../public/VideoAlbum/video3.mp4";
@@ -13,7 +13,7 @@ function VideoSlider() {
     <section className="w-[100%] mx-auto  flex flex-col lg:flex-row justify-between items-center lg:mt-10">
       {/* Left: Text */}
       <div className="sm:block px-4 mb-5  tracking-wide  text-left flex flex-col">
-        <div className="lg:block mb-5 ml-20 tracking-wide lg:mb-0 lg:mt-[-100px]  text-left flex flex-col lg:w-[350px]">
+        <div className="lg:block mb-5 lg:ml-20 tracking-wide lg:mb-0 lg:mt-[-100px]  text-left flex flex-col lg:w-[350px]">
           <p className="text-[oklch(0.22_0.01_270)] text-base leading-relaxed">
             <span className="font-bold text-[2rem]">My cooking style</span>{" "}
             <br />
@@ -30,7 +30,7 @@ function VideoSlider() {
 
       {/* //////////////*/}
 
-      <section className=" lg:mr-20 lg:max-w-[50%] flex">
+      <section className="hidden lg:mr-20 lg:max-w-[50%] lg:flex">
         {/* //////////////*/}
 
         <div className="m-[2px] w-full  flex flex-col ">
@@ -65,8 +65,8 @@ function VideoSlider() {
         </div>
       </section>
 
-      {/* Right: Video Grid
-      <div className=" sm:block  mb-10 w-full lg:max-w-[50%] grid grid-cols-1 md:grid-cols-2  gap-2 ">
+      {/* Right: Video Grid*/}
+      <div className=" lg:hidden md:px-4  mb-10 w-full lg:max-w-[50%] grid grid-cols-1 md:grid-cols-2  gap-2 ">
         {videos.map((video, index) => (
           <div
             key={index}
@@ -84,7 +84,7 @@ function VideoSlider() {
             </video>
           </div>
         ))}
-      </div> */}
+      </div>
     </section>
   );
 }

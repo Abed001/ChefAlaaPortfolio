@@ -3,14 +3,14 @@ import newhero from "../assets/newhero.png";
 
 function Hero() {
   return (
-    <div className=" w-[100%]  flex flex-col justify-around lg:flex-row items-center">
+    <div className=" w-[100%] mt-5 md:mt-5 lg:mt-0  flex flex-col justify-around lg:flex-row items-center">
       <div className="px-4 sm:block text-left flex flex-col justify-center w-[100%]  ">
-        <div className="border ml-20 mt-[-50px] lg:block text-left flex flex-col justify-center lg:w-[500px] ">
+        <div className=" lg:ml-20 lg:mt-[-50px] lg:block text-left flex flex-col justify-center lg:w-[500px] ">
           {" "}
-          <span className="border text-[2rem] font-bold lg:w-[500px]">
+          <span className="text-[2rem] font-bold lg:w-[500px]">
             Lorem ipsum dolor sit amet consectetur.
           </span>
-          <p className="border tracking-wide w-full lg:w-[500px]">
+          <p className=" tracking-wide w-full lg:w-[500px]">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Praesentium labore possimus consequatur deleniti necessitatibus?
           </p>
@@ -19,7 +19,7 @@ function Hero() {
 
       <img
         src={newhero}
-        className=" border lg:mr-20  mb-10 rounded-4xl lg:w-[500px] lg:mt-10 w-full object-cover object-center"
+        className=" lg:mr-20 mb-10 rounded-4xl lg:w-[500px] lg:mt-10 w-full object-cover object-center"
       />
     </div>
   );
