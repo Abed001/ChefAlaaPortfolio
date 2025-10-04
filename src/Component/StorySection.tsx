@@ -4,14 +4,15 @@ import SliderComponent from "./SliderComponent";
 
 function StorySection() {
   return (
-    <div className="flex flex-col lg:flex-row justify-around items-center">
+    <div className="w-[100%] flex flex-col lg:flex-row-reverse justify-around items-center">
       <div className=" sm-block px-4 gap-y-5 text-left flex flex-col justify-center   ">
-        <div className=" lg:block lg:ml-10  lg:px-0 gap-y-5 text-left flex flex-col justify-center   ">
+        <div className=" lg:block lg:ml-10 lg:px-0 gap-y-5 text-left flex flex-col justify-center ">
           {" "}
           <span className="text-[2rem] font-bold lg:w-[500px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            Lorem ipsum dolor sit amet <br />
+            consectetur .
           </span>
-          <p className="tracking-wide  w-full lg:w-[600px]">
+          <p className="tracking-wide w-full lg:w-[500px]">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Praesentium labore possimus consequatur deleniti necessitatibus?
             Assumenda sed temporibus totam possimus dolorem! Tempore, placeat?
