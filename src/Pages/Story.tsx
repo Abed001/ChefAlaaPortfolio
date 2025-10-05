@@ -1,12 +1,10 @@
-//import nuclearalaa from "../assets/nuclearalaa.jpg";
-//import Button from "react-bootstrap/Button";
-import SliderComponent from "./SliderComponent";
+import SliderComponent from "../Component/SliderComponent";
 
-function StorySection() {
+function Story() {
   return (
     <div
       id="story"
-      className=" w-[100%] flex flex-col lg:flex-row-reverse justify-evenly items-center"
+      className="w-[100%] flex flex-col lg:flex-row-reverse justify-evenly items-center"
     >
       <div className=" sm-block px-4 gap-y-5 text-left flex flex-col justify-center   ">
         <div className=" lg:block  lg:px-0 gap-y-5 text-left flex flex-col justify-center ">
@@ -34,4 +32,4 @@ function StorySection() {
   );
 }
 
-export default StorySection;
+export default Story;

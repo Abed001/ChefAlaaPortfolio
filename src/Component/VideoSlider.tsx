@@ -9,12 +9,12 @@ import Video from "./Video";
 
 function VideoSlider() {
   return (
-    <section className="w-[100%] mx-auto  flex flex-col lg:flex-row justify-between items-center lg:mt-10">
+    <section className="w-[100%] mx-auto flex flex-col lg:flex-row justify-between items-center lg:mt-10">
       {/* Left: Text */}
-      <div className="sm:block px-4 mb-5  tracking-wide  text-left flex flex-col">
+      <div className="sm:block px-4 mb-5 tracking-wide  text-left flex flex-col">
         <div className="lg:block mb-5 lg:ml-20 tracking-wide lg:mb-0 lg:mt-[-100px]  text-left flex flex-col lg:w-[350px]">
           <p className="text-[oklch(0.22_0.01_270)] text-base leading-relaxed">
-            <span className="font-bold text-[2rem]">My cooking style</span>{" "}
+            <span className="font-bold text-[2rem]">My Cooking Style</span>{" "}
             <br />
             is expressive, flavorful, and visually rich.
             <br />
@@ -73,7 +73,7 @@ function VideoSlider() {
           >
             <video
               controls
-              autoPlay
+              autoPlay={false}
               className="w-full h-full object-cover object-center rounded-4xl"
             >
               <source

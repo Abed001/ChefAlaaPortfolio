@@ -5,7 +5,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 function PlatesSlider() {
   return (
     <Swiper
-      className=" h-[400px] lg:h-[500px] mb-10 flex justify-items-center lg:bg-button-bg rounded-md w-[90%] md:w-full  mt-5  lg:w-[100%]"
+      className=" h-[400px] lg:h-[500px] mb-10 flex justify-items-center lg:bg-button-bg rounded-md w-[100%] md:w-full mt-5 lg:w-[100%]"
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={0}
       breakpoints={{
