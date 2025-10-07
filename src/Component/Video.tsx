@@ -8,7 +8,7 @@ function Video({ url }: VideoCardProps) {
       <video
         controls
         autoPlay={false}
-        className="w-full h-full object-cover object-center rounded-4xl"
+        className="cursor-pointer w-full h-full object-cover object-center rounded-4xl"
       >
         <source
           src={url}

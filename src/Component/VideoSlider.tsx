@@ -29,11 +29,11 @@ function VideoSlider() {
 
       {/* //////////////*/}
 
-      <section className="hidden lg:mr-20 lg:max-w-[50%] lg:flex">
+      <section className="rounded-4xl bg-button-bg p-2 hidden lg:mr-20 lg:max-w-[50%] lg:flex">
         {/* //////////////*/}
 
         <div className="m-[2px] w-full  flex flex-col ">
-          <div className="mt-20 rounded-4xl overflow-hidden shadow-md h-[300px]">
+          <div className=" rounded-4xl overflow-hidden shadow-md h-[300px]">
             <Video url={video1} />
           </div>
           <div className="mt-[2px] rounded-4xl overflow-hidden shadow-md h-[300px]">
@@ -41,7 +41,7 @@ function VideoSlider() {
           </div>
         </div>
 
-        {/* //////////////*/}
+        {/* //////////////
 
         <div className="m-[2px] w-full  flex flex-col ">
           <div className=" rounded-4xl overflow-hidden shadow-md ">
@@ -50,16 +50,24 @@ function VideoSlider() {
           <div className="mt-[2px] rounded-4xl overflow-hidden shadow-md aspect-ratio">
             <Video url={video4} />
           </div>
-        </div>
+        </div>*/}
 
         {/* //////////////*/}
 
         <div className=" m-[2px]  w-full  flex flex-col ">
-          <div className="mt-20 rounded-4xl overflow-hidden shadow-md h-[300px]">
-            <Video url={video5} />
+          <div className=" rounded-4xl overflow-hidden shadow-md h-[300px]">
+            <Video url={video6} />
           </div>
           <div className=" mt-[2px] rounded-4xl overflow-hidden shadow-md h-[300px]">
-            <Video url={video6} />
+            <Video url={video4} />
+          </div>
+        </div>
+        <div className=" m-[2px]  w-full  flex flex-col ">
+          <div className=" rounded-4xl overflow-hidden shadow-md h-[300px]">
+            <Video url={video3} />
+          </div>
+          <div className=" mt-[2px] rounded-4xl overflow-hidden shadow-md h-[300px]">
+            <Video url={video5} />
           </div>
         </div>
       </section>

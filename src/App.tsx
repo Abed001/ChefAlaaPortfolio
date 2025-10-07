@@ -25,14 +25,15 @@ function App() {
           path="/story"
           element={<Story />}
         />
-        <Route
-          path="/contact"
-          element={<Contact />}
-        />
 
         <Route
           path="/social"
           element={<MediaSection />}
+        />
+
+        <Route
+          path="/contact"
+          element={<Contact />}
         />
       </Routes>
     </div>

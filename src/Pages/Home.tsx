@@ -2,6 +2,7 @@ import Hero from "@/Component/Hero";
 import StorySection from "@/Component/StorySection";
 import MediaSection from "./MediaSection";
 import Experience from "./Experience";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <StorySection />
       <MediaSection />
       <Experience />
+      <Contact />
     </div>
   );
 }

@@ -1,9 +1,9 @@
-import alaaKitchen from "../assets/SliderAlbum/alaakitchen.jpg";
-import nuclearalaa from "../assets/SliderAlbum/nuclearalaa.jpg";
-import slider1 from "../assets/SliderAlbum/slider1.jpg";
-import slider2 from "../assets/SliderAlbum/slider2.jpg";
-import slider3 from "../assets/SliderAlbum/slider3.jpg";
-import slider4 from "../assets/SliderAlbum/slider4.jpg";
+import alaaKitchen from "../assets/SliderAlbum/alaakitchen.webp";
+import nuclearalaa from "../assets/SliderAlbum/nuclearalaa.webp";
+import slider1 from "../assets/SliderAlbum/slider1.webp";
+import slider2 from "../assets/SliderAlbum/slider2.webp";
+import slider3 from "../assets/SliderAlbum/slider3.webp";
+import slider4 from "../assets/SliderAlbum/slider4.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
@@ -32,6 +32,7 @@ function SliderComponent() {
           src={nuclearalaa}
           className="w-full h-full object-cover object-center"
           alt="Nuclear Alaa"
+          loading="lazy"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -39,6 +40,7 @@ function SliderComponent() {
           src={slider1}
           className="w-full h-full object-cover object-top"
           alt="Slider 1"
+          loading="lazy"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -46,6 +48,7 @@ function SliderComponent() {
           src={slider2}
           className="w-full h-full object-cover object-center"
           alt="Slider 2"
+          loading="lazy"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -53,6 +56,7 @@ function SliderComponent() {
           src={slider3}
           className="w-full h-full object-cover object-center"
           alt="Slider 3"
+          loading="lazy"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -60,6 +64,7 @@ function SliderComponent() {
           src={slider4}
           className="w-full h-full object-cover object-center"
           alt="Slider 4"
+          loading="lazy"
         />
       </SwiperSlide>
     </Swiper>

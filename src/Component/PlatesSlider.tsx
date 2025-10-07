@@ -23,6 +23,7 @@ function PlatesSlider() {
       {plates.map((plate, index) => (
         <SwiperSlide key={index}>
           <img
+            loading="lazy"
             src={plate.src}
             className="size-full rounded-4xl p-4 object-cover object-center"
           />
